@@ -6,8 +6,7 @@ use tauri::Manager;
 fn main() {
     tauri::Builder::default()
         .setup(|app| {
-            let window = app.handle().get_window("main").unwrap();
-            window.set_transparent(true).unwrap();
+            let _window = app.handle().get_webview_window("main").unwrap();
             Ok(())
         })
         .run(tauri::generate_context!())
