@@ -13,7 +13,9 @@
   },
 
 
+  
   "app": {
+    
     "windows": [
       {
         "transparent": true,
@@ -23,6 +25,7 @@
         "title": "Screentext",
         "width": 800,
         "height": 600
+      
       
       }
     ],
