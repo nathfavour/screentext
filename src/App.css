@@ -30,6 +30,8 @@
   text-align: center;
   border: 2px solid white; /* Add white border */
   box-sizing: border-box; /* Ensure border is included in element's total width and height */
+  width: 100vw; /* Ensure the container takes the full width of the window */
+  height: 100vh; /* Ensure the container takes the full height of the window */
 }
 
 .logo {
