@@ -1,7 +1,7 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
-use tauri::tray::{SystemTray, SystemTrayEvent, SystemTrayMenu, CustomMenuItem, TrayIconBuilder};
+use tauri::tray::{SystemTray, SystemTrayEvent, SystemTrayMenu, CustomMenuItem};
 
 fn main() {
     // Create a "Quit" menu item for the tray
