@@ -13,7 +13,7 @@
     "windows": [
       {
         "transparent": true,
-        "decorations": false,
+        "decorations": true, // Enable window decorations
         "fullscreen": false,
         "resizable": true,
         "title": "Screentext",

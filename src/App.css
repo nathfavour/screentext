@@ -21,6 +21,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body, html {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   margin: 0;
   padding: 0;
@@ -36,6 +42,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.8); /* Add a thick white border */
 }
 
 .logo {
