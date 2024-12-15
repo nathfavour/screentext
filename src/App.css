@@ -23,15 +23,19 @@
 
 .container {
   margin: 0;
-  padding-top: 10vh;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  border: 2px solid white; /* Add white border */
-  box-sizing: border-box; /* Ensure border is included in element's total width and height */
-  width: 100vw; /* Ensure the container takes the full width of the window */
-  height: 100vh; /* Ensure the container takes the full height of the window */
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .logo {
