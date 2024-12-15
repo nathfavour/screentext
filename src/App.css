@@ -28,6 +28,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  border: 2px solid white; /* Add white border */
+  box-sizing: border-box; /* Ensure border is included in element's total width and height */
 }
 
 .logo {
