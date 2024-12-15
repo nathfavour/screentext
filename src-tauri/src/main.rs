@@ -8,7 +8,6 @@ fn main() {
         .setup(|app| {
             let window = app.get_webview_window("main").unwrap();
             window.set_decorations(false).unwrap();
-            window.set_transparent(true).unwrap();
             Ok(())
         })
         .run(tauri::generate_context!())
