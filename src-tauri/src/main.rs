@@ -6,7 +6,7 @@ use tauri::Manager;
 fn main() {
     tauri::Builder::default()
         .setup(|app| {
-            let window = app.handle().get_window("main").unwrap();
+            let window = app.get_window("main").unwrap();
             window.set_transparent(true).unwrap();
             Ok(())
         })
