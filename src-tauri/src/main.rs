@@ -3,6 +3,7 @@
 
 use tauri::{SystemTray, SystemTrayEvent, SystemTrayMenu, CustomMenuItem};
 
+
 fn main() {
     // Create a "Quit" menu item for the tray
     let quit = CustomMenuItem::new("quit".to_string(), "Quit");
