@@ -12,8 +12,8 @@
   "app": {
     "windows": [
       {
-        "transparent": true,
-        "decorations": true, 
+        "transparent": false,
+        "decorations": false, 
         "fullscreen": false,
         "resizable": true,
         "title": "Screentext",
